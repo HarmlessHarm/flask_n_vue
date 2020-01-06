@@ -9,16 +9,18 @@ It contains a vue client that sends requests to the flask server.
 TODO 
 - make bash script to initialize everything
 - test installation scripts on
-  - Linux
+  <!-- - Linux -->
   - Windows
   - MacOS?
 
 #### Flask
+If virtualenv is not installed: `pip install virtualenv`   
 `cd server`   
-`virtualenv env`   
+` virtualenv --python=python3.6 env`   
 `pip install -r requirements.txt`   
 
 #### Vue
+With npm installed
 `cd client`   
 `npm install`   
 
